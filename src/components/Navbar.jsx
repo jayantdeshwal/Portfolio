@@ -114,9 +114,9 @@ function Navbar() {
         </NavLink>
         <button
           className='w-full bg-gradient-to-r from-green-400 to-blue-500 text-white transform transition-transform duration-300 hover:scale-105 px-6 py-3 rounded-full mt-4'
-          onClick={toggleMobileMenu}
+          onClick={handleConnectMeClick}
         >
-          Connect Me
+          Connect Me <FontAwesomeIcon icon={faLinkedin}/>
         </button>
       </div>
     </nav>
